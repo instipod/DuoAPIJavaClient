@@ -66,4 +66,8 @@ public class DuoDelayedTransaction {
         ddt.setResult("deny");
         return ddt;
     }
+
+    public String getTransactionIdentifier() {
+        return transactionIdentifier;
+    }
 }
